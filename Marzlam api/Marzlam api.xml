@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Marzlam api</name>
+    </assembly>
+    <members>
+        <member name="M:Marzlam_api.AppSettings.Init(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            初始化jwt配置
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:Marzlam_api.Extension.JwtSwaggerEx.AddSwaggerEx(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Swagger注入
+            </summary>
+            <param name="services"></param>
+            <param name="modular"></param>
+            <param name="docs"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Marzlam_api.JwtSetting">
+            <summary>
+            jwt配置对象
+            </summary>
+        </member>
+    </members>
+</doc>
